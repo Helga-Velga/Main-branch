@@ -1,13 +1,11 @@
 package Exceptions;
 
-// Исключение при неправильном размере массива
 class MyArraySizeException extends Exception {
     public MyArraySizeException(String message) {
         super(message);
     }
 }
 
-// Исключение при невозможности преобразовать элемент массива в число
 class MyArrayDataException extends Exception {
     public MyArrayDataException(String message) {
         super(message);
